@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Elements</title>
+</head>
+<style>
+    .para1{
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+     }
+    /*.para1::first-line{
+        color: red;
+    }
+    .para1::first-letter{
+        color: blue;
+        font-size: 50px;
+    }
+     */
+    .para1::after {
+        content:url("https://seeklogo.com/images/W/whatsapp-icon-logo-8CA4FB831E-seeklogo.com.png");
+
+     }
+    .para1::before{
+        content:" Paragraf Öncesi";
+    }
+</style>
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem numquam eos 
+        aliquid facilis amet repudiandae unde totam magni nemo mollitia ad veritatis, accusantium
+        voluptatem accusamus repellendus? Earum minus a laborum ipsa provident blanditiis 
+        corrupti fugiat ea culpa reprehenderit saepe accusantium aspernatur suscipit excepturi, 
+        delectus esse exercitationem repellendus pariatur tempora maiores officia asperiores iusto
+        epudiandae nihil? Dolore voluptas quis, doloremque ipsam consequuntur ipsa natus, ab 
+        nihil ut corrupti quidem fuga voluptatem tempore in explicabo distinctio doloribus? Aperiam
+        hic dolores impedit, eius doloribus maxime fugit sit consequatur ipsum sunt cumque laudantium
+        dolore voluptas alias reiciendis, nihil delectus nulla harum similique ea ratione!</p>
+</body>
+</html>

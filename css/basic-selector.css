@@ -1,0 +1,78 @@
+/* Tüm h1 leri seç 
+h1{
+    color: darkred;
+    background-color:gray;
+}*/
+
+
+/*p{
+    color: darkred;
+    background-color: gray;
+}*/
+
+
+/*h1,p{
+    color: darkred;
+    background-color: gray;
+}*/
+
+/*id="logo", olanı seçmek için ; !!!!!!!
+#logo{
+    color: orange;
+    background-color: gray;
+}*/
+
+
+/* class="info" olanı seç; 
+.info{
+    color: white;
+    background-color: black;
+}*/
+
+
+/*
+#logo, .info {
+    color: white;
+    background-color: black
+}*/
+
+
+/* class="lead" ve id="lorem1" olanı seç 
+#lorem1.lead{
+    color: red;
+    background-color:bisque;
+}
+*/
+
+
+/* linklerin alt çizgisini kaldır. 
+a{
+    text-decoration: none;
+}
+*/
+
+
+/* sadece ul un içindeki li nin içindeki a yı seç 
+ul li a {
+    color: red;
+    background-color: lightgoldenrodyellow;
+    
+}*/
+
+
+/*.info span{
+    color: blue;
+}*/
+
+
+/*p info.primary{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: red;
+}*/
+
+/*html sayfamdaki tüm elemanların özelliklerini değiştir.
+*{
+    color: white;
+    background: black;
+}*/
